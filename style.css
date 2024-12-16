@@ -1,0 +1,55 @@
+body{
+    background: darkgray;
+}
+.maincontainer h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #444444;
+    margin: 0 auto;
+    width: 50%;
+    height: 15vh;
+}
+.inptxt{
+    color: white;
+    font-size: 20px;
+
+}
+#inpbox{
+    height: 7vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+.addbtn button{
+    height: 7vh;
+    border-radius: 180px;
+    background: orange;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.tasks{
+    margin: 0 auto;
+    background: #444444;
+    color: white;
+    width: 50%;
+    font-size: 30px;
+}
+#list li {
+    word-wrap: break-word;
+    white-space: normal; 
+}
+#list span{
+    cursor: pointer;
+    color: red;
+    margin-left: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
